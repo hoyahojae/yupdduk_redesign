@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동대문엽기떡볶이 - 대한민국의 매운맛을 책임집니다.</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="동대문엽기떡볶이" />
+  <meta property="og:title" content="동대문엽기떡볶이" />
+  <meta property="og:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="og:image" content="./images/og_img.png" />
+  <meta property="og:url" content="https://www.yupdduk.com" />
+
+  <!-- TWITTER CARD -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="동대문엽기떡볶이" />
+  <meta property="twitter:title" content="동대문엽기떡볶이" />
+  <meta property="twitter:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="twitter:image" content="./images/og_img.png" />
+  <meta property="twitter:url" content="https://www.yupdduk.com" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
+
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+  <!-- MATERIAL ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS -->
+    <!-- COMMON -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./css/main.css">
+
+  <!-- FONT -->
+    <!-- Noto Sans Korean -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 여기어때 잘난체 -->
+    <style>
+      @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+  <!-- ScrollMagic.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- lodash.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS -->
+  <script src="./js/common.js" defer></script>
+  <script src="./js/common.js" defer></script>
+  <script src="./js/main.js" defer></script>
+
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <!-- LOGO -->
+      <div class="header_logo">
+        <a href="./index.html">
+          <img src="./images/logo_1.png" alt="동대문엽기떡볶이" width="114px">
+        </a>
+      </div>
+
+      <!-- MENU -->
+      <ul class="header_menu">
+        <li class="item"><div class="item_name">핫시즈너</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>핫시즈너</p>
+                    <span>HONEST FOOD FOR YOU</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./company.html">CEO 인사말</a></li>
+                    <li><a href="./company.html#brand">브랜드소개</a></li>
+                    <li><a href="./company.html#bi">BI/CI</a></li>
+                    <li><a href="./company.html#character">캐릭터소개</a></li>
+                    <li><a href="./company.html#contact">오시는 길</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">메뉴소개</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                    <div>
+                      <p>메뉴소개</p>
+                      <span>엽기떡볶이가 강력 추천합니다.</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./menu.html">엽기떡볶이 메뉴</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">가맹문의</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>가맹문의</p>
+                    <span>동대문 엽기떡볶이와 함께할<br/> 점주 여러분을 찾습니다.</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./franchise.html">창업절차</a></li>
+                    <li><a href="./franchise.html#interialConcept">인테리어 콘셉트</a></li>
+                    <li><a href="./franchise.html#franchiseExpense">개설비용</a></li>
+                    <li><a href="./franchise.html#franchiseFaq">창업 FAQ</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">이벤트</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>이벤트</p>
+                    <span>엽떡도 먹고! 이벤트도 참여하고!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/event/list">이벤트 & 안내</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">매장정보</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>매장정보</p>
+                    <span>가까운 지역의 엽기떡볶이 매장을<br/> 만나보세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./search.html">엽기떡볶이 매장</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">고객안내</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>고객안내</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">엽기떡볶이 미디어</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item"><div class="giftcard"><div class="item_name">상품권</div></div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>상품권</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/certi/info">상품권 구매</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_extend">상품권 연장</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_refund">상품권 환불</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/re_info">상품권 재발급</a></li>
+                    <li class="red_menu"><a href="https://www.yupdduk.com/certi/notice">상품권 유의사항</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- SING UP/IN -->
+      <ul class="header_sign">
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <main>
+
+    <!-- EVENT -->
+    <section class="main_event">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+
+            <!-- SLIDE 1 -->
+            <div class="slide1 swiper-slide">
+              <div class="inner">
+                <div>
+
+                  <div class="slide1_title_all">
+                    <div class="slide1_title">
+                      <img src="./images/main_title.png" alt="수능 끝 친구들과 엽떡먹자!!" class="main_title" />
+                    </div>
+                    <div class="slide1_subtitle">
+                      <img src="./images/main_subtitle.png" alt="22학년도 수능 수험표 인증 이벤트 2022명에게 2만원 할인쿠폰 지급!" class="main_subtitle" />
+                    </div>
+                    <a href="https://www.yupdduk.com/event/view?idx=2021110002&cpage=1"><div class="btn">자세히 보기</div></a>
+                  </div>
+                  <div class="slide1_img_1">
+                    <img src="./images/main_illustrate.png" alt="수능 끝 친구들과 엽떡먹자!!" class="main_illustrate">
+                  </div>
+                  <div class="slide1_img_2">
+                    <img src="./images/main_img_2.png" alt="수능 끝 친구들과 엽떡먹자!!" class="main_img_2" />
+                  </div>
+                  <div class="slide1_btn">
+                    <div class="slide1_btn_1">
+                      <div class="btn btn__white">응모기간</div>
+                      <p>21.11.18.(목) ~ 21.12.05.(일)</p>
+                    </div>
+                    <div class="slide1_btn_2">
+                      <div class="btn btn__white">당첨발표</div>
+                      <p>21.12.09.(목)</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide2 swiper-slide">
+              <div class="inner">
+                <div>
+
+                  <!-- TITLE -->
+                  <div class="slide2_title">
+                    <div class="slide2_title_logo_1"><img src="./images/logo_1.png" alt="동대문엽기떡볶이" class="slide_2_logo_1"></div>
+                    <div class="slide2_title_icon"><img src="./svg/slide_2_icon.svg"></div>
+                    <div class="slide2_title_logo2"><img src="./images/cheong_logo.jpeg" alt="청춘전투" class="slide_2_logo_2"></div>
+                  </div>
+
+                  <!-- CONTENTS -->
+                  <div class="slide2_contents_title">
+                    <img src="./images/slide_2_img_1.png" alt="동대문엽기떡볶이와 청춘전투가 함께합니다." class="slide_2_img_1" />
+                  </div>
+                  <div class="slide2_contents_subtitle">
+                    <img src="./images/slide_2_img_4.png" alt="엽떡앱으로 엽기떡볶이메뉴 주문 시, 음료의정석 1캔 증정" class="slide_2_img_4" />
+                  </div>
+                  <div class="slide2_contents_text">
+                    <div>
+                      <p>2021. 11. 17(수) ~ 가맹점 재고 소진 시까지</p>
+                      <span>*가맹점당 420캔</span>
+                    </div>
+                  </div>
+                  <div class="slide2_btn">
+                    <a href="https://www.yupdduk.com/event/view?idx=2021110003&cpage=1"><div class="btn">자세히 보기</div></a>
+                  </div>
+                  <div class="slide2_contents_img">
+                    <div><img src="./images/slide_2_img_5.png" class="slide_2_img_5" /></div>
+                  </div>
+                  <div class="slide2_contents_checklist">
+                    <p>엽기떡볶이 메뉴 5종</p>
+                    <div class="slide2_contents_checklist_line">
+                      <div class="slide2_contents_checklist_item">
+                        <img src="./images/slide_2_img_3.png" width="28px">
+                        <span>엽기떡볶이</span>
+                      </div>
+                      <div class="slide2_contents_checklist_item">
+                        <img src="./images/slide_2_img_3.png" width="28px">
+                        <span>엽기오뎅</span>
+                      </div>
+                      <div class="slide2_contents_checklist_item">
+                        <img src="./images/slide_2_img_3.png" width="28px">
+                        <span>엽기반반</span>
+                      </div>
+                      <div class="slide2_contents_checklist_item">
+                        <img src="./images/slide_2_img_3.png" width="28px">
+                        <span>엽기분모자떡볶이</span>
+                      </div>
+                      <div class="slide2_contents_checklist_item">
+                        <img src="./images/slide_2_img_3.png" width="28px">
+                        <span>세트메뉴</span>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide3 swiper-slide">
+              <div class="slide3_bg_1">
+                <div class="slide3_bg_2">
+                  <div class="inner">
+                    <div>
+
+                      <!-- LOGO -->
+                      <div class="slide3_logo"><img src="./images/logo_1.png" alt="동대문엽기떡볶이" class="slide3_logo_1" /></div>
+
+                      <!-- CONTENTS -->
+                      <div class="slide3_contents">
+                        <div class="slide3_title"><img src="./images/slide_3_img_1.png" alt="쫄깃쫄깃 탱글한 분모자!! 분모자떡볶이&분모자 후기 인증 이벤트!" class="slide_3_img_1" /></div>
+                        <div class="slide3_text">
+                          <div>
+                            <div class="slide3_text_line">
+                              <div class="btn btn__white">이벤트 기간</div>
+                              <p>2021.11.01(월) ~ 2021.11.30(화)</p>
+                            </div>
+                            <div class="slide3_text_line">
+                              <div class="btn btn__white">당첨자 발표</div>
+                              <p>2021.12.03(금)</p>
+                            </div>
+                            <div class="slide3_btn">
+                              <a href="https://www.yupdduk.com/event/view?idx=2021110001&cpage=1"><div class="btn">자세히 보기</div></a>
+                            </div>
+                            <div class="slide3_img">
+                              <img src="./images/slide_3_img_6.png" class="slide_3_img_6" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="slide3_bg_yubi"><img src="./images/slide_3_img_4.png" class="slide_3_img_4"></div>
+                  <div class="slide3_bg_dubi"><img src="./images/slide_3_img_5.png" class="slide_3_img_5"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="slide4 swiper-slide">
+              <div>
+                <div class="inner">
+                  <div>
+  
+                    <div class="slide4_title"><img src="./images/slide_4_img_1.png" alt="10월 6일 (수) 크림떡볶이, 분모자출시!" width="600px"></div>
+                    <a href="https://www.yupdduk.com/event/view?idx=2021090002&cpage=1"><div class="btn">자세히 보기</div></a>
+                    <div class="slide4_contents">
+                      <div>
+  
+                        <div class="slide4_rows">
+                          <div class="slide4_item_img"><img src="./images/slide_4_img_2.png" alt="크림떡볶이" class="slide_4_img_2" /></div>
+                          <div class="slide4_item_title">크림떡볶이</div>
+                          <div class="slide4_item_text">
+                            <div>
+                              <div class="slide4_item_text_item">
+                                <div class="slide4_item truple">트러플크림맛</div>
+                                <div class="slide4_item cream">크림맛</div>
+                                <div class="slide4_item spicytuple">트러플매콤맛</div>
+                                <div class="slide4_item spicy">매콤맛</div>
+                              </div>
+                              <img src="./images/slide_4_img_6.png" alt="분모자 떡볶이" class="slide_4_img_4" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="slide4_rows">
+                          <div class="slide4_item_img"><img src="./images/slide_4_img_3.png" alt="분모자" class="slide_4_img_2" /></div>
+                          <div class="slide4_item_title">분모자</div>
+                          <div class="slide4_item_text">
+                            <div>
+                              <div class="slide4_item_text_line">
+                                <img src="./images/slide_4_img_4.png" alt="분모자 떡볶이" class="slide_4_img_4" />
+                                <p>떡볶이 -> 분모자 변경 시 <b>+3000원</b></p>
+                              </div>
+                              <div class="slide4_item_text_line last">
+                                <img src="./images/slide_4_img_5.png" alt="분모자 토핑" class="slide_4_img_4" />
+                                <p>분모자 토핑 추가 시 <b>+2500원</b></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <!-- MENU -->
+    <section class="main_menu scroll-spy">
+      <div class="main_menu_bg">
+        <div class="inner">
+          <div>
+
+            <!-- MENU LOGO -->
+            <div class="main_menu__logo">
+              <img src="./images/logo_1_strok.png" alt="동대문엽기떡볶이" height="85px">
+            </div>
+
+            <!-- MENU ALL -->
+            <div class="main_menu__all">
+              <!-- MAIN MENU -->
+              <div class="menu_all__1 yub back-to-position to-opacity delay-0">
+                <div class="yub__img back-to-position to-left delay-0">
+                  <img src="./images/main_img_2.png" alt="메인메뉴" class="yub_main_img_2">
+                </div>
+                <div class="main_all__title">
+                  <p>메인메뉴</p>
+                  <span>MAIN MENU</span>
+                  <a href="#"><div class="btn btn__small">메뉴 더보기</div></a>
+                </div>
+              </div>
+              <!-- STIR-FRY MENU -->
+              <div class="menu_all__1 stir back-to-position to-opacity delay-1">
+                <div class="stir__img back-to-position to-right delay-1">
+                  <img src="./images/menu_stirfry.png" alt="닭발메뉴" class="stir_menu_stirfry">
+                </div>
+                <div class="main_all__title">
+                  <p>닭발메뉴</p>
+                  <span>STIR-FRY MENU</span>
+                  <a href="#"><div class="btn btn__small">메뉴 더보기</div></a>
+                </div>
+              </div>
+              <!-- SIDE MENU -->
+              <div class="menu_all__2 side back-to-position to-opacity delay-2">
+                <div class="side__img back-to-position to-left delay-2">
+                  <img src="./images/menu_side.png" alt="사이드/음료" class="side_menu_side">
+                </div>
+                <div class="main_all__title">
+                  <p>사이드/음료</p>
+                  <span>SIDE/DRINK</span>
+                  <a href="#"><div class="btn btn__small">메뉴 더보기</div></a>
+                </div>
+              </div>
+              <!-- TOPPING -->
+              <div class="menu_all__2 topping back-to-position to-opacity delay-3">
+                <div class="topping__img back-to-position to-center delay-3">
+                  <img src="./images/menu_topping.png" alt="토핑" class="topping_menu_topping">
+                </div>
+                <div class="main_all__title">
+                  <p>토핑</p>
+                  <span>TOPPING</span>
+                  <a href="#"><div class="btn btn__small">메뉴 더보기</div></a>
+                </div>
+              </div>
+              <!-- SET MENU -->
+              <div class="menu_all__2 setmenu back-to-position to-opacity delay-4">
+                <div class="setmenu__img back-to-position to-right delay-4">
+                  <img src="./images/menu_setmenu.png" alt="세트메뉴" class="setmenu_menu_setmenu">
+                </div>
+                <div class="main_all__title">
+                  <p>세트메뉴</p>
+                  <span>SET MENU</span>
+                  <a href="#"><div class="btn btn__small">메뉴 더보기</div></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH -->
+    <section class="main_search scroll-spy">
+      <!-- BACKGROUND -->
+      <video muted autoplay loop>
+        <source src="./video/main_video_1.mp4" />
+      </video>
+      <div class="main_search__video_bg"></div>
+      <!-- CONTENTS -->
+        <!-- TEXT -->
+        <div class="main_search__text">
+          <img src="./images/logo_2.png" alt="동대문엽기떡볶이" width="384px">
+          <p>음식의 새로운 문화를 선도하는 브랜드가 되도록 노력하겠습니다.</p>
+        </div>
+
+        <!-- SEARCH CONTENTS -->
+        <div class="main_search__contents">
+          <div class="search_content back-to-position to-opacity delay-0">
+            <div class="search_content__all">
+              <p>주변 매장 찾기</p>
+              <span>
+                매운맛이 그리울때, 지금 영업중인 <br />
+                엽기떡볶이 매장을 찾아주세요.
+              </span>
+              <form>
+                <input type="text" placeholder="주소나 매장명을 입력하세요." />
+                <div class="search__btn"><span class="material-icons">search</span></div>
+              </form>
+              <div class="search_content__btn"><a href="./search.html"><div class="btn">주변 매장 안내</div></a></div>
+            </div>
+          </div>
+          <div class="search_content back-to-position to-opacity delay-1">
+            <div class="search_content__all">
+              <p>창업 안내</p>
+              <span>
+                동대문 엽기떡볶이와 함께할 <br />
+                점주 여러분을 찾습니다.
+              </span>
+              <div class="search_content__btn"><a href="./franchise.html"><div class="btn">자세히 보기</div></a></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- NOTICE -->
+    <section class="main_notice">
+      <div class="inner">
+
+        <div class="main_notice_all">
+          <!-- TITLE -->
+          <div class="main_notice_title">
+            <img src="./images/logo_1.png" alt="동대문엽기떡볶이" width="150px">
+            <p>풍성한 소식 놓치지 말고 확인하세요!</p>
+          </div>
+          <!-- LIST -->
+          <div class="main_notice_list">
+            <!-- CHARACTER -->
+            <div class="main_notice_list__character">
+              <img src="./images/characterimg_yeobi.png" alt="여비" width="80px" />
+              <img src="./images/characterimg_deogi.png" alt="더기" width="80px" />
+            </div>
+            <!-- START -->
+            <div class="main_notice_list__line">
+              <div class="main_notice_list__data">
+                <div>
+                  <p>2021</p>
+                  <span>10.07</span>
+                </div>
+              </div>
+              <div class="main_notice_list__text">
+                <div>
+                  <span>고객의소리 답변지연 안내</span>
+                    <p>
+                      안녕하세요. (주)핫시즈너 동대문엽기떡볶이입니다. 최근 본사 고객의소리 문의가 급증하고 있습니다. 최대한 신속히 답변을 드리기 위해 노력하고 있으나 예상치를 상회하는 문의량으로 답변이 지연되고 있는 점 고객님의 너그러운 양해를 부탁드립니다...
+                    </p>
+                </div>
+              </div>
+              <div class="main_notice_list__btn"><a href="https://www.yupdduk.com/board/view?gc=100&idx=15070">자세히<br /> 보기</a></div>
+            </div>
+            <div class="main_notice_list__line">
+              <div class="main_notice_list__data">
+                <div>
+                  <p>2021</p>
+                  <span>10.06</span>
+                </div>
+              </div>
+              <div class="main_notice_list__text">
+                <div>
+                  <span>행정구역 변경 시 주소지 삭제 안내</span>
+                    <p>
+                      안녕하세요. (주)핫시즈너 동대문엽기떡볶이입니다. 행정기관 및 관할구역이 변경될 경우 등록된 배달지가 삭제됩니다. 새로운 배달지를 등록하여 이용해 주시기 바랍니다. ■ 행정기관 및 관할구역 변경 시 '등록된 배달지' 삭제 안내 1. 시행일자 : 2021년...
+                    </p>
+                </div>
+              </div>
+              <div class="main_notice_list__btn"><a href="https://www.yupdduk.com/board/view?gc=100&idx=14978">자세히<br /> 보기</a></div>
+            </div>
+            <div class="main_notice_list__line">
+              <div class="main_notice_list__data">
+                <div>
+                  <p>2021</p>
+                  <span>09.09</span>
+                </div>
+              </div>
+              <div class="main_notice_list__text">
+                <div>
+                  <span>모바일앱 배달주문 불가 매장 안내 (21.09.09. 기준)</span>
+                    <p>
+                      [모바일앱 배달주문불가 매장 안내] 아래의 매장은 가맹점의 사정으로 모바일앱 방문포장만 가능합니다. &#60;동대문직영점, 본점 홀매장&#62; 위 매장에 대해 공지된 내용은 수정될 수 있습니다. 고객님의 많은 양해부탁드립니다. 감사합니다.
+                    </p>
+                </div>
+              </div>
+              <div class="main_notice_list__btn"><a href="https://www.yupdduk.com/board/view?gc=100&idx=14652">자세히<br /> 보기</a></div>
+            </div>
+            <div class="main_notice_list__line last">
+              <div class="main_notice_list__data">
+                <div>
+                  <p>2021</p>
+                  <span>07.27</span>
+                </div>
+              </div>
+              <div class="main_notice_list__text">
+                <div>
+                  <span>고객센터 운영시간 변경 안내</span>
+                    <p>
+                      안녕하세요. (주)핫시즈너 동대문엽기떡볶이입니다. 고객센터 운영시간 변경에 대해 안내드립니다. ◆ 고객센터 운영시간 변경 1. 변경내용 : 11:00~22:00 → 평일 09:30~18:30 (※ 엽떡앱 관련 문의 22시까지) 2. 공고일자 : 2021.07.27.(화) 3. 시행일자 :...
+                    </p>
+                </div>
+              </div>
+              <div class="main_notice_list__btn"><a href="https://www.yupdduk.com/board/view?gc=100&idx=14111">자세히<br /> 보기</a></div>
+            </div>
+          </div>
+          <!-- BTN -->
+          <div class="main_notice_btn"><a href="https://www.yupdduk.com//board/list?gc=100"><div class="btn">공지사항 더보기</div></a></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SMART PHONE -->
+    <section class="main_phone">
+      <!-- BACKGROUND -->
+      <video muted autoplay loop>
+        <source src="./video/main_video_2.mp4" />
+      </video>
+      <!-- CONTENTS -->
+      <div class="main_phone__video_bg">
+        <div>
+          <img src="./images/logo_2.png" alt="동대문엽기떡볶이" width="200px">
+          <p>언제 어디서나 편리하게, 혜택은 더 풍성하게 !</p>
+          <span>
+            이제 엽기떡볶이를 <br />
+            모바일로 간편하게 주문하세요!
+          </span>
+          <div class="main_phone__btn">
+            <a href="https://play.google.com/store/apps/details?id=com.yupdduk.morder&hl=ko&gl=US" target="_blank"><img src="./svg/badge_google.svg" alt="Google Play 다운로드하기" width="182px" /></a>
+            <a href="https://apps.apple.com/kr/app/%EC%97%BD%EA%B8%B0%EB%96%A1%EB%B3%B6%EC%9D%B4/id1190023113" target="_blank"><img src="./svg/badge_apple.svg" alt="App Store에서 다운로드 하기" width="182px" /></a>
+          </div>
+        </div>
+        <div class="main_phone__img">
+          <img src="./images/main_phone.png" alt="이제 엽기떡복이를 모바일로 간편하게 주문하세요!" width="584px">
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="main_awards">
+      <div class="inner">
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2018_1.png" alt="2018 소비자 포럼 기대되는 브랜드 대상 떡볶이 부문" width="54px"></div>
+          <div class="award_text">
+            <p>2018 소비자 포럼</p>
+            <span>
+              기대되는 브랜드 대상 <br />
+              <b>떡볶이 부문</b>
+            </span>
+          </div>
+        </div>
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2018_2.png" alt="2018 해럴드 경제 고객감동국가경쟁력 우수 프렌차이즈 부문 대상" width="48px"></div>
+          <div class="award_text">
+            <p>2018 해럴드 경제</p>
+            <span class="award_small">
+              고객감동국가경쟁력 우수 <br />
+              <b>프렌차이즈 부문 대상</b>
+            </span>
+          </div>
+        </div>
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2018_3.png" alt="2018 소비자 포럼 올해의 브랜드 대상 떡볶이 부문 2년 지속" width="54px"></div>
+          <div class="award_text">
+            <p>2018 소비자 포럼</p>
+            <span>
+              기대되는 브랜드 대상 <br />
+              <b>떡볶이 부문 2년 지속</b>
+            </span>
+          </div>
+        </div>
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2019.png" alt="2019 소비자 포럼 올해의 브랜드 대상 떡볶이 부문 3년 지속" width="54px"></div>
+          <div class="award_text">
+            <p>2019 소비자 포럼</p>
+            <span>
+              올해의 브랜드 대상 <br />
+              <b>떡볶이 부문 3년 지속</b>
+            </span>
+          </div>
+        </div>
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2020.png" alt="2020 소비자 포럼 올해의 브랜드 대상 떡볶이 부문 4년 지속" width="54px"></div>
+          <div class="award_text">
+            <p>2020 소비자 포럼</p>
+            <span>
+              올해의 브랜드 대상 <br />
+              <b>떡볶이 부문 4년 지속</b>
+            </span>
+          </div>
+        </div>
+        <div class="award">
+          <div class="award_img"><img src="./images/emblem_2021.png" alt="2021 소비자 포럼 올해의 브랜드 대상 떡볶이 부문 5년 지속" width="54px"></div>
+          <div class="award_text">
+            <p>2021 소비자 포럼</p>
+            <span>
+              올해의 브랜드 대상 <br />
+              <b>떡볶이 부문 5년 지속</b>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+
+      <!-- FOOTER MENU -->
+      <ul class="footer_menu">
+        <li><a href="#">이용약관</a></li>
+        <li>|</li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li>|</li>
+        <li><a href="#">법적고지</a></li>
+        <li>|</li>
+        <li><a href="#">영상정보처리기기운영/관리</a></li>
+      </ul>
+
+      <!-- CONTACT US -->
+      <div class="footer_contact">
+        <ul class="footer_contact_text">
+          <li>회사명:(주)핫시즈너</li>
+          <li>|</li>
+          <li>사업자등록번호 : 201-86-13311</li>
+          <li>|</li>
+          <li>대표번호 : 070-7710-8592</li>
+          <li>|</li>
+          <li>고객센터 : 1661-8514</li>
+        </ul>
+        <p>본사 : 서울특별시 성동구 성수이로18길 7, HS빌딩 7층</p>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer_copyright">
+        COPYRIGHT Ⓒ BY HOTSEASONER HOT FOOD ALL RIGHTS RESERVED
+      </div>
+
+      <!-- SNS -->
+      <div class="footer_sns">
+        <a href="https://www.youtube.com/channel/UC6n3KHZx7bs5dK1fSVqWLvw/featured" target="_blank"><div class="sns_item"><img src="./svg/sns_youtube.svg" alt="Youtube" /></div></a>
+        <a href="https://www.facebook.com/ddmyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_facebook.svg" alt="facebook" /></div></a>
+        <a href="https://www.instagram.com/loveyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_instagram.svg" alt="Instagram" /></div></a>
+        <a href="https://blog.naver.com/ddm_yupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_blog.svg" alt="네이버 블로그" /></div></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- TOP -->
+  <div class="top" id="to-top">
+    <div>
+      <img src="./svg/top_icon.svg" />
+      <p>TOP</p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동대문엽기떡볶이 - 대한민국의 매운맛을 책임집니다.</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="동대문엽기떡볶이" />
+  <meta property="og:title" content="동대문엽기떡볶이" />
+  <meta property="og:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="og:image" content="./images/og_img.png" />
+  <meta property="og:url" content="https://www.yupdduk.com" />
+
+  <!-- TWITTER CARD -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="동대문엽기떡볶이" />
+  <meta property="twitter:title" content="동대문엽기떡볶이" />
+  <meta property="twitter:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="twitter:image" content="./images/og_img.png" />
+  <meta property="twitter:url" content="https://www.yupdduk.com" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
+
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+  <!-- MATERIAL ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS -->
+    <!-- COMMON -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./css/franchise.css" />
+
+  <!-- FONT -->
+    <!-- Noto Sans Korean -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 여기어때 잘난체 -->
+    <style>
+      @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+  <!-- ScrollMagic.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- lodash.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS -->
+  <script src="./js/common.js" defer></script>
+  <script src="./js/franchise.js" defer></script>
+
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <!-- LOGO -->
+      <div class="header_logo">
+        <a href="./index.html">
+          <img src="./images/logo_1.png" alt="동대문엽기떡볶이" width="114px">
+        </a>
+      </div>
+
+      <!-- MENU -->
+      <ul class="header_menu">
+        <li class="item"><div class="item_name">핫시즈너</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>핫시즈너</p>
+                    <span>HONEST FOOD FOR YOU</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./company.html">CEO 인사말</a></li>
+                    <li><a href="./company.html#brand">브랜드소개</a></li>
+                    <li><a href="./company.html#bi">BI/CI</a></li>
+                    <li><a href="./company.html#character">캐릭터소개</a></li>
+                    <li><a href="./company.html#contact">오시는 길</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">메뉴소개</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                    <div>
+                      <p>메뉴소개</p>
+                      <span>엽기떡볶이가 강력 추천합니다.</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./menu.html">엽기떡볶이 메뉴</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">가맹문의</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>가맹문의</p>
+                    <span>동대문 엽기떡볶이와 함께할<br/> 점주 여러분을 찾습니다.</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./franchise.html">창업절차</a></li>
+                    <li><a href="./franchise.html#interialConcept">인테리어 콘셉트</a></li>
+                    <li><a href="./franchise.html#franchiseExpense">개설비용</a></li>
+                    <li><a href="./franchise.html#franchiseFaq">창업 FAQ</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">이벤트</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>이벤트</p>
+                    <span>엽떡도 먹고! 이벤트도 참여하고!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/event/list">이벤트 & 안내</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">매장정보</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>매장정보</p>
+                    <span>가까운 지역의 엽기떡볶이 매장을<br/> 만나보세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./search.html">엽기떡볶이 매장</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">고객안내</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>고객안내</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">엽기떡볶이 미디어</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item"><div class="giftcard"><div class="item_name">상품권</div></div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>상품권</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/certi/info">상품권 구매</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_extend">상품권 연장</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_refund">상품권 환불</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/re_info">상품권 재발급</a></li>
+                    <li class="red_menu"><a href="https://www.yupdduk.com/certi/notice">상품권 유의사항</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- SING UP/IN -->
+      <ul class="header_sign">
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <main>
+
+    <!-- TITLE -->
+    <div class="page_title">
+      <div class="inner">
+        <div>
+          <p>가맹문의</p>
+          <span>동대문 엽기떡볶이와 함께할 점주 여러분을 찾습니다.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENTS -->
+      <!-- FRANCHISE STEP -->
+      <section class="franchise_step scroll-spy" id="franchiseStep">
+        <div class="inner">
+          <div>
+
+            <!-- TITLE -->
+            <p class="franchise__title">창업절차</p>
+
+            <!-- STEP CONTENTS -->
+            <div class="step_contents">
+              <div class="step_line">
+                <div class="step_card step1 back-to-position to-opacity to-center delay-0">
+                  <span>STEP 1</span>
+                  <div class="front">
+                    <div>
+                      <p>창업문의 상담</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      전화상담으로 진행되며 희망지역에 대한 안내 및 지역 타당성을 설명합니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow1.svg" /></div>
+                <div class="step_card step2 back-to-position to-opacity to-center delay-1">
+                  <span>STEP 2</span>
+                  <div class="front">
+                    <div>
+                      <p>가맹후보자 선정</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      가맹희망자에 대한 '엽떡' 가맹점 운영 계획서 및 후보자 면담의 2차 검토 과정을 통해 후보자를 선정합니다.
+
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow1.svg" /></div>
+                <div class="step_card step3 back-to-position to-opacity to-center delay-2">
+                  <span>STEP 3</span>
+                  <div class="front">
+                    <div>
+                      <p>정보공개서 제공 및<br/> 가맹계약</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      가맹사업공정화에 의한 법률에 의거 정보공개서, 가맹계약서에 대한 설명을 드리며, 당사자의 동의에 의해 가맹계약을 체결합니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow1.svg" /></div>
+                <div class="step_card step4 back-to-position to-opacity to-center delay-3">
+                  <span>STEP 4</span>
+                  <div class="front">
+                    <div>
+                      <p>인테리어 도면작성</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      인테리어 공사의 도면을 작성하여 검토,수정합니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow1.svg" /></div>
+                <div class="step_card step5 back-to-position to-opacity to-center delay-4">
+                  <span>STEP 5</span>
+                  <div class="front">
+                    <div>
+                      <p>인테리어 시공 및<br/> 설치 완료</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      도면 작성이 완료되면 핫시즈너의 컨셉에 맞는 인테리어 공사를 진행합니다.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step_arrow"><div><img src="./svg/franchise_arrow3.svg"></div></div>
+              <div class="step_line last">
+                <div class="step_card step6 back-to-position to-opacity to-center delay-5">
+                  <span>STEP 6</span>
+                  <div class="front">
+                    <div>
+                      <p>조리교육 및 운영교육<br/> 실시/점검</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      인테리어 공사 기간 중 본사 직영매장에서 운영교육 및 조리교육을 받습니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow2.svg" /></div>
+                <div class="step_card step7 back-to-position to-opacity to-center delay-6">
+                  <span>STEP 7</span>
+                  <div class="front">
+                    <div>
+                      <p>각종시설 및 집기류 입고</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      인테리어 공사에서 마감까지 본사의 임원 또는 슈퍼바이저가 감독하여 하자율 0%를 목표로 뛰고 있습니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow2.svg" /></div>
+                <div class="step_card step8 back-to-position to-opacity to-center delay-7">
+                  <span>STEP 8</span>
+                  <div class="front">
+                    <div>
+                      <p>지속적인 경영지도 및<br/> 관리</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      본사 슈퍼바이저가 오픈 후 매장의 매출 증대 방안에 대하여 고민하고 경영지도 및 관리를 해드립니다.
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow2.svg" /></div>
+                <div class="step_card step9 back-to-position to-opacity to-center delay-8">
+                  <span>STEP 9</span>
+                  <div class="front">
+                    <div>
+                      <p>원, 주자재 입고</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div>
+                      소모품 및 비품입고, 각종 전단지 및 인쇄물 입고, 초도물량 입고 및 오픈 준비 완료
+                    </div>
+                  </div>
+                </div>
+                <div class="step_card__arrow"><img src="./svg/franchise_arrow2.svg" /></div>
+                <div class="step_card step10 back-to-position to-opacity to-center delay-9">
+                  <span>STEP 10</span>
+                  <div class="front">
+                    <div>
+                      <p>점포 오픈</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERIAL CONCEPT -->
+      <section class="interial scroll-spy" id="interialConcept">
+        <div>
+          <div class="inner">
+            <div>
+  
+              <!-- TITLE -->
+              <p class="franchise__title">인테리어 콘셉트</p>
+  
+              <!-- INTERIAL CONTENTS -->
+              <div class="interial_contents">
+                <div class="interial_contents__line">
+                  <div class="interial_contents__card_1 photo_1 back-to-position to-opacity to-left delay-0" id="interial_1"><div><img src="./images/interior_img_1.jpeg" alt="인테리어 콘셉트"></div></div>
+                  <div class="interial_contents__card_1 photo_2 back-to-position to-opacity to-right delay-1" id="interial_2"><div><img src="./images/interior_img_2.jpeg" alt="인테리어 콘셉트"></div></div>
+                </div>
+                <div class="interial_contents__line">
+                  <div class="interial_contents__card_2 photo_3 back-to-position to-opacity to-left delay-2" id="interial_3"><div><img src="./images/interior_img_3.jpeg" alt="인테리어 콘셉트"></div></div>
+                  <div class="interial_contents__card_2 photo_4 back-to-position to-opacity to-center delay-3" id="interial_4"><div><img src="./images/interior_img_4.jpeg" alt="인테리어 콘셉트"></div></div>
+                  <div class="interial_contents__card_2 photo_5 back-to-position to-opacity to-right delay-4" id="interial_5"><div><img src="./images/interior_img_5.jpeg" alt="인테리어 콘셉트"></div></div>
+                </div>
+              </div>
+
+              <!-- POPUP -->
+                <!-- INTERAL 1 -->
+                <div class="interial_popup interial_1">
+                  <div>
+                    <div class="interial_popup_contents">
+                      <div><img src="./images/interior_img_1.jpeg" alt="인테리어 콘셉트"></div>
+                    </div>
+                    <div class="interial_popup_icon">
+                      <span class="material-icons">close</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- INTERAL 2 -->
+                <div class="interial_popup interial_2">
+                  <div>
+                    <div class="interial_popup_contents">
+                      <div><img src="./images/interior_img_2.jpeg" alt="인테리어 콘셉트"></div>
+                    </div>
+                    <div class="interial_popup_icon">
+                      <span class="material-icons">close</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- INTERAL 3 -->
+                <div class="interial_popup interial_3">
+                  <div>
+                    <div class="interial_popup_contents">
+                      <div><img src="./images/interior_img_3.jpeg" alt="인테리어 콘셉트"></div>
+                    </div>
+                    <div class="interial_popup_icon">
+                      <span class="material-icons">close</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- INTERAL 4 -->
+                <div class="interial_popup interial_4">
+                  <div>
+                    <div class="interial_popup_contents">
+                      <div><img src="./images/interior_img_4.jpeg" alt="인테리어 콘셉트"></div>
+                    </div>
+                    <div class="interial_popup_icon">
+                      <span class="material-icons">close</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- INTERAL 5 -->
+                <div class="interial_popup interial_5">
+                  <div>
+                    <div class="interial_popup_contents">
+                      <div><img src="./images/interior_img_5.jpeg" alt="인테리어 콘셉트"></div>
+                    </div>
+                    <div class="interial_popup_icon">
+                      <span class="material-icons">close</span>
+                    </div>
+                  </div>
+                </div>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FRANCHISE EXPENSE -->
+      <section class="expense" id="franchiseExpense">
+        <div class="inner">
+          <div>
+
+            <!-- TITLE -->
+            <p class="franchise__title">개설비용</p>
+
+            <!-- EXPENSE CONTENTS -->
+            <div class="expense_contents">
+              <div class="expense__table">
+                <div class="expense__table__linetitle">
+                  <div class="expense__table__item titles">구분</div>
+                  <div class="expense__table__item ones">15평</div>
+                  <div class="expense__table__item twos">25평</div>
+                  <div class="expense__table__item plus">포함내용</div>
+                  <div class="expense__table__item ects">비고</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">가맹비</div>
+                  <div class="expense__table__item ones">1,000만원</div>
+                  <div class="expense__table__item twos">1,000만원</div>
+                  <div class="expense__table__item plus">브랜드/매뉴얼 사용, 운영노하우 전수</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">교육비</div>
+                  <div class="expense__table__item ones">300만원</div>
+                  <div class="expense__table__item twos">300만원</div>
+                  <div class="expense__table__item plus">레시피 제공, 조리교육</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">인테리어</div>
+                  <div class="expense__table__item ones">2,700만원<br/>(180/평)</div>
+                  <div class="expense__table__item twos">4,500만원<br/>(180/평)</div>
+                  <div class="expense__table__item plus">목공(벽, 천정), 전기/조명, 도장, 타일공사, 인조대리석</div>
+                  <div class="expense__table__item ects">15평 이하도 동일</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">간판</div>
+                  <div class="expense__table__item ones">400~500만원</div>
+                  <div class="expense__table__item twos">500만원</div>
+                  <div class="expense__table__item plus">전면 외부간판, 내부 메뉴판, 내외부 사인 <br/>(15평 유리 측면 실사 포함)</div>
+                  <div class="expense__table__item ects">돌출간판, 어닝 별도</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">주방설비</div>
+                  <div class="expense__table__item ones">400만원</div>
+                  <div class="expense__table__item twos">480만원</div>
+                  <div class="expense__table__item plus">전기온수기(50L), 미장방수, 타일 급배수공사</div>
+                </div>
+                <div class="expense__table__line bigger">
+                  <div class="expense__table__item titles">주방기기 및 집기</div>
+                  <div class="expense__table__item ones">1,100만원</div>
+                  <div class="expense__table__item twos">1,250만원</div>
+                  <div class="expense__table__item plus">가스렌지(6구), 튀김기, 싱크대, 싱크대선반장, 냉장/냉동고(45BOX), 토핑냉장고, 테이블선반, 전자오븐렌지4대, 컵소독기 등과 조리용품 및 그릇일체</div>
+                  <div class="expense__table__item ects">매장 평수와 테이블 개수에 따라 변동 식기세척기 화구분리 (3구, 3구) 또는 화구분리 (4구, 3구)는 추가사항</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">홀 의자 및 탁자</div>
+                  <div class="expense__table__item ones">350만원</div>
+                  <div class="expense__table__item twos">430만원</div>
+                  <div class="expense__table__item plus">15평 - 4인용 8세트 기준(원목의자기준), 붙박이의자<br/>25평 - 4인용 12세트 기준 (원목의자기준)</div>
+                  <div class="expense__table__item ects">매장 평수와 테이블<br/>개수에 따라 변동</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">본사물품/오픈홍보비</div>
+                  <div class="expense__table__item ones">53만원</div>
+                  <div class="expense__table__item twos">53만원</div>
+                  <div class="expense__table__item plus">명함, 전단지, 자석메뉴판, 빌지, 엑스배너</div>
+                </div>
+                <div class="expense__table__line bigger">
+                  <div class="expense__table__item titles">외부공사</div>
+                  <div class="expense__table__item ones">400~700만원</div>
+                  <div class="expense__table__item twos">400~800만원</div>
+                  <div class="expense__table__item plus">외부파사드, 외부도장, 외부금속 등</div>
+                  <div class="expense__table__item ects">매장 위치(1층 또는 2층)에 따라 변동 창호프레임, 강화도어, 자동도어 별도</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">POS시스템</div>
+                  <div class="expense__table__item ones">120만원</div>
+                  <div class="expense__table__item twos">120만원</div>
+                  <div class="expense__table__item plus">POS단말기와 휴대용 카드단말기</div>
+                </div>
+                <div class="expense__table__line bigger">
+                  <div class="expense__table__item titles">별도공사</div>
+                  <div class="expense__table__item ones">500~1,000만원</div>
+                  <div class="expense__table__item twos">500~1,500만원</div>
+                  <div class="expense__table__item plus">철거, 닥트, 분전함 이설 등</div>
+                  <div class="expense__table__item ects">폴링도어, 화장실, 소방 및 방염공사, 냉난방기, 가스시설, 전기증설 별도</div>
+                </div>
+                <div class="expense__table__line">
+                  <div class="expense__table__item titles">지방경비(별도)</div>
+                  <div class="expense__table__item ones">5~10%</div>
+                  <div class="expense__table__item twos">5~10%</div>
+                  <div class="expense__table__item plus">대전 이남 이북 기준(주방설비/기구/간편팀 운임비 포함)</div>
+                </div>
+                <div class="expense__table__lineend">
+                  <div class="expense__table__item titles">합계<br/>(부가가치세 별도)</div>
+                  <div class="expense__table__item ones">7,323~8,223만원</div>
+                  <div class="expense__table__item twos">9,533~10,933만원</div>
+                </div>
+              </div>
+              <div class="expense__text">*오픈시 초도물량(식자재 등) 비용은 <b>약 800만원</b> 입니다.</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq" id="franchiseFaq">
+        <div class="inner">
+          <div>
+
+            <!-- TITLE -->
+            <p class="franchise__title">창업 FAQ</p>
+
+            <!-- CONTENTS -->
+            <div class="faq_contents">
+
+              <!-- CHARACTER -->
+              <div class="faq_list__character">
+                <img src="./images/characterimg_yeobi.png" alt="여비" width="80px" />
+                <img src="./images/characterimg_deogi.png" alt="더기" width="80px" />
+              </div>
+              <!-- START -->
+              <div class="faq_list__line">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        서울/경기/인천 지역은 가맹점이 많이 있던데 추가개설이 가능한가요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div id="faq_1">답변보기</div></div>
+              </div>
+              <div class="faq_answar" id="answar_1">
+                <div>
+                  수도권(서울/경기/인천) 지역은 가맹점 수가 많이 있어 현재 신규 가맹이 어렵습니다. 단, 신도시·도시개발 지역의 경우, 주변 가맹점의 위치·도시형성 규모·주거인구 등을 복합적으로 분석하여 신규 개설이 검토 될 수 있습니다.
+                </div>
+              </div>
+
+              <div class="faq_list__line" id="faq_2">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        가맹본부에서 점포 입지 선정을 도와주시나요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div>답변보기</div></div>
+              </div>
+              <div class="faq_answar" id="answar_2">
+                <div>
+                  특정 지역 및 상권에 대한 추천은 하지 않는 것이 원칙입니다. 가맹희망자께서 직접 확인 및 조사 후, 지역담당자와 상의하셔야 합니다.
+                </div>
+              </div>
+
+              <div class="faq_list__line" id="faq_3">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        식자재 공급 및 배송은 어떻게 이루어 지나요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div>답변보기</div></div>
+              </div>
+              <div class="faq_answar" id="answar_3">
+                <div>
+                  ㈜핫시즈너에서 운영하고 있는 물류센터 및 가맹본부에서 지정한 업체를 통해서 공급하고 있습니다. 사업의 통일성 유지를 위해 가맹본부에서 지정한 업체와 거래하도록 가맹계약서에 명시하고 있습니다.
+                </div>
+              </div>
+
+              <div class="faq_list__line" id="faq_4">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        매장 운영시 구인은 어떻게 진행되며, 필요한 직원수는 어떻게 되나요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div>답변보기</div></div>
+              </div>
+              <div class="faq_answar" id="answar_4">
+                <div>
+                  가맹점주가 구인사이트 등을 통해 직접 구인해야 하며, 필요 직원 수는 가맹점의 매출액, 영업시간 등에 따라 달라집니다.
+                </div>
+              </div>
+
+              <div class="faq_list__line" id="faq_5">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        가맹점 오픈 시까지는 얼마의 기간이 소요 되나요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div>답변보기</div></div>
+              </div>
+              <div class="faq_answar" id="answar_5">
+                  <div>
+                    가맹계약 이후 매장 오픈까지는  1~3개월 정도 소요됩니다. 상권 분석 및 점포 선정, 도면 협의에 소요되는 시간의 차이가 소요시간에 가장 큰 영향을 주고 있습니다. 가맹계약 이후 오픈까지 소요되는 기간 동안 인/허가 추진, 인테리어 공사, 본사 교육 등이 진행됩니다.
+                  </div>
+              </div>
+
+              <div class="faq_list__line last" id="faq_6">
+                <div class="faq_list__icon">
+                  <div>Q.</div>
+                </div>
+                <div class="faq_list__text">
+                  <div>
+                      <p>
+                        무경험자도 가맹점 운영이 가능한가요?
+                      </p>
+                  </div>
+                </div>
+                <div class="faq_list__btn"><div>답변보기</div></div>
+              </div>
+              <div class="faq_answar last" id="answar_6">
+                <div>
+                  네 가능합니다. 동대문엽기떡볶이는 특별한 손재주나 풍부한 경험이 없어도 가맹점 운영을 하실 수 있습니다. 본사의  성공 노하우 및 기술 전수, 체계적인 매뉴얼 교육을 이수하시면 경험이 없는 초보자도 얼마든지 운영하실 수 있습니다.
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+
+      <!-- FOOTER MENU -->
+      <ul class="footer_menu">
+        <li><a href="#">이용약관</a></li>
+        <li>|</li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li>|</li>
+        <li><a href="#">법적고지</a></li>
+        <li>|</li>
+        <li><a href="#">영상정보처리기기운영/관리</a></li>
+      </ul>
+
+      <!-- CONTACT US -->
+      <div class="footer_contact">
+        <ul class="footer_contact_text">
+          <li>회사명:(주)핫시즈너</li>
+          <li>|</li>
+          <li>사업자등록번호 : 201-86-13311</li>
+          <li>|</li>
+          <li>대표번호 : 070-7710-8592</li>
+          <li>|</li>
+          <li>고객센터 : 1661-8514</li>
+        </ul>
+        <p>본사 : 서울특별시 성동구 성수이로18길 7, HS빌딩 7층</p>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer_copyright">
+        COPYRIGHT Ⓒ BY HOTSEASONER HOT FOOD ALL RIGHTS RESERVED
+      </div>
+
+      <!-- SNS -->
+      <div class="footer_sns">
+        <a href="https://www.youtube.com/channel/UC6n3KHZx7bs5dK1fSVqWLvw/featured" target="_blank"><div class="sns_item"><img src="./svg/sns_youtube.svg" alt="Youtube" /></div></a>
+        <a href="https://www.facebook.com/ddmyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_facebook.svg" alt="facebook" /></div></a>
+        <a href="https://www.instagram.com/loveyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_instagram.svg" alt="Instagram" /></div></a>
+        <a href="https://blog.naver.com/ddm_yupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_blog.svg" alt="네이버 블로그" /></div></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- TOP -->
+  <div class="top" id="to-top">
+    <div>
+      <img src="./svg/top_icon.svg" />
+      <p>TOP</p>
+    </div>
+  </div>
+
+</body>
+</html>

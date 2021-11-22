@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동대문엽기떡볶이 - 대한민국의 매운맛을 책임집니다.</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="동대문엽기떡볶이" />
+  <meta property="og:title" content="동대문엽기떡볶이" />
+  <meta property="og:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="og:image" content="./images/og_img.png" />
+  <meta property="og:url" content="https://www.yupdduk.com" />
+
+  <!-- TWITTER CARD -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="동대문엽기떡볶이" />
+  <meta property="twitter:title" content="동대문엽기떡볶이" />
+  <meta property="twitter:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="twitter:image" content="./images/og_img.png" />
+  <meta property="twitter:url" content="https://www.yupdduk.com" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
+
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+  <!-- MATERIAL ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS -->
+    <!-- COMMON -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./css/search.css" />
+
+  <!-- FONT -->
+    <!-- Noto Sans Korean -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 여기어때 잘난체 -->
+    <style>
+      @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- lodash.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS -->
+  <script src="./js/common.js" defer></script>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <!-- LOGO -->
+      <div class="header_logo">
+        <a href="./index.html">
+          <img src="./images/logo_1.png" alt="동대문엽기떡볶이" width="114px">
+        </a>
+      </div>
+
+      <!-- MENU -->
+      <ul class="header_menu">
+        <li class="item"><div class="item_name">핫시즈너</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>핫시즈너</p>
+                    <span>HONEST FOOD FOR YOU</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./company.html">CEO 인사말</a></li>
+                    <li><a href="./company.html#brand">브랜드소개</a></li>
+                    <li><a href="./company.html#bi">BI/CI</a></li>
+                    <li><a href="./company.html#character">캐릭터소개</a></li>
+                    <li><a href="./company.html#contact">오시는 길</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">메뉴소개</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                    <div>
+                      <p>메뉴소개</p>
+                      <span>엽기떡볶이가 강력 추천합니다.</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./menu.html">엽기떡볶이 메뉴</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">가맹문의</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>가맹문의</p>
+                    <span>동대문 엽기떡볶이와 함께할<br/> 점주 여러분을 찾습니다.</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./franchise.html">창업절차</a></li>
+                    <li><a href="./franchise.html#interialConcept">인테리어 콘셉트</a></li>
+                    <li><a href="./franchise.html#franchiseExpense">개설비용</a></li>
+                    <li><a href="./franchise.html#franchiseFaq">창업 FAQ</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">이벤트</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>이벤트</p>
+                    <span>엽떡도 먹고! 이벤트도 참여하고!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/event/list">이벤트 & 안내</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">매장정보</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>매장정보</p>
+                    <span>가까운 지역의 엽기떡볶이 매장을<br/> 만나보세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./search.html">엽기떡볶이 매장</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">고객안내</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>고객안내</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">엽기떡볶이 미디어</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item"><div class="giftcard"><div class="item_name">상품권</div></div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>상품권</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/certi/info">상품권 구매</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_extend">상품권 연장</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_refund">상품권 환불</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/re_info">상품권 재발급</a></li>
+                    <li class="red_menu"><a href="https://www.yupdduk.com/certi/notice">상품권 유의사항</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- SING UP/IN -->
+      <ul class="header_sign">
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <main>
+    
+    <!-- TITLE -->
+    <div class="page_title">
+      <div class="inner">
+        <div>
+          <p>엽기떡볶이 매장</p>
+          <span>가까운 지역의 엽기떡볶이 매장을 만나보세요!</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENTS -->
+      <!-- SEARCH -->
+      <section class="search">
+        <div class="inner">
+
+          <div class="search__all">
+            <div>
+              <p class="search__title">가까운 매장 검색</p>
+              <div class="search__adress">
+                <span class="adress__title">주소/매장명 검색</span>
+                <form>
+                  <input type="text" placeholder="매장명을 입력하세요." />
+                  <div class="search__btn"><span class="material-icons">search</span></div>
+                </form>
+                <div class="search__more">
+                  <select>
+                    <option>시/도</option>
+                    <option>서울특별시</option>
+                    <option>경기도</option>
+                    <option>인천광역시</option>
+                    <option>강원도</option>
+                    <option>충청북도</option>
+                    <option>충청남도</option>
+                    <option>대전광역시</option>
+                    <option>세종특별자치시</option>
+                    <option>광주광역시</option>
+                    <option>전라북도</option>
+                    <option>전라남도</option>
+                    <option>경상북도</option>
+                    <option>경상남도</option>
+                    <option>대구광역시</option>
+                    <option>부산광역시</option>
+                    <option>울산광역시</option>
+                    <option>제주특별자치도</option>
+                  </select>
+                  <select>
+                    <option value="">구/군</option>
+                  </select>
+                </div>
+              </div>
+              <div class="search__list">
+                <span class="adress__title">전국 매장안내</span>
+                <div class="list_table">
+                  <div class="list_item active">전체</div>
+                  <div class="list_item">서울특별시</div>
+                  <div class="list_item">경기도</div>
+                  <div class="list_item">인천광역시</div>
+                  <div class="list_item">강원도</div>
+                  <div class="list_item">충청북도</div>
+                  <div class="list_item">충청남도</div>
+                  <div class="list_item">대전광역시</div>
+                  <div class="list_item big">세종특별자치시</div>
+                  <div class="list_item">광주광역시</div>
+                  <div class="list_item">전라북도</div>
+                  <div class="list_item">전라남도</div>
+                  <div class="list_item">경상북도</div>
+                  <div class="list_item">경상남도</div>
+                  <div class="list_item">대구광역시</div>
+                  <div class="list_item">부산광역시</div>
+                  <div class="list_item">울산광역시</div>
+                  <div class="list_item big">제주특별자치도</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- LIST -->
+      <section class="search_list__all">
+        <div class="inner">
+
+            <p class="search_board__title">총 530 개의 매장이 있습니다.</p>
+            <div class="search_board">
+              <div class="search_board__linetitle">
+                <div class="search_board__linetitle__row status">운영상태</div>
+                <div class="search_board__linetitle__row names">매장명</div>
+                <div class="search_board__linetitle__row adress">주소</div>
+                <div class="search_board__linetitle__row contact">연락처</div>
+                <div class="search_board__linetitle__row service">매장서비스</div>
+                <div class="search_board__linetitle__row times">운영시간</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn ready">오픈예정</div>
+                </div>
+                <div class="search_board__line__row names">대전신탄진점</div>
+                <div class="search_board__line__row adress">대전광역시 대덕구 대덕대로 1578 (석봉동), 1층</div>
+                <div class="search_board__line__row contact">042-932-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">11:00 ~ 22:30</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">가락점</div>
+                <div class="search_board__line__row adress">서울특별시 송파구 양재대로62길 16 (가락동), 1층</div>
+                <div class="search_board__line__row contact">02-402-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">11:00 ~ 22:10</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">가산디지털점</div>
+                <div class="search_board__line__row adress">서울특별시 금천구 벚꽃로 254 (가산동, 월드메르디앙1차)</div>
+                <div class="search_board__line__row contact">02-866-8591</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">10:30 ~ 21:40</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">가양점</div>
+                <div class="search_board__line__row adress">서울특별시 강서구 양천로 482 (등촌동, 삼부르네상스오피스텔) 104호</div>
+                <div class="search_board__line__row contact">02-2659-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">11:00 ~ 23:00</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">가재울점</div>
+                <div class="search_board__line__row adress">서울특별시 서대문구 수색로 100 (북가좌동, DMC래미안E편한세상) 2단지
+                  상가 1층 1-6호</div>
+                <div class="search_board__line__row contact">02-304-8591</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">10:50 ~ 22:50</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">강남구청역점</div>
+                <div class="search_board__line__row adress">서울특별시 강남구 선릉로131길 8 (논현동, 노벨빌딩), 1층 1호</div>
+                <div class="search_board__line__row contact">02-566-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">10:30 ~ 22:00</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">강남역점</div>
+                <div class="search_board__line__row adress">서울특별시 서초구 강남대로61길 13 (서초동), 2층 5호</div>
+                <div class="search_board__line__row contact">02-532-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">10:50 ~ 23:00</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">강동구청점</div>
+                <div class="search_board__line__row adress">서울특별시 강동구 천호옛길 16, 1층 102호 (성내동, 성민빌딩)</div>
+                <div class="search_board__line__row contact">02-484-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">11:00 ~ 23:00</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn closed">준비중</div>
+                </div>
+                <div class="search_board__line__row names">강릉교동점</div>
+                <div class="search_board__line__row adress">강원도 강릉시 솔올로 66(교동), 102호</div>
+                <div class="search_board__line__row contact">033-645-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">12:00 ~ 22:30</div>
+              </div>
+              <div class="search_board__line">
+                <div class="search_board__line__row status">
+                  <div class="status__btn">영업중</div>
+                </div>
+                <div class="search_board__line__row names">강릉옥천점</div>
+                <div class="search_board__line__row adress">강원도 강릉시 경강로 2150(옥천동140-1)</div>
+                <div class="search_board__line__row contact">033-655-8592</div>
+                <div class="search_board__line__row service">
+                  <div>
+                    <div class="hall__icon" title="홀"><span class="material-icons">room_service</span></div>
+                    <div class="delivery__icon" title="배달"><span class="material-icons">delivery_dining</span></div>
+                    <div class="takeout__icon" title="포장"><span class="material-icons">takeout_dining</span></div>
+                  </div>
+                </div>
+                <div class="search_board__line__row times">12:00 ~ 22:30</div>
+              </div>
+            </div>
+            <p class="search_board__warning">
+              *가맹점 별 운영방침에 따라 브레이크 타임이 있을 수 있습니다. <br />
+              *각 매장별 개점시간, 폐점시간, 휴무일, 브레이크 타임은 상세보기에서 확인 하실 수 있습니다.
+            </p>
+            <div class="search_board__number">
+              <div>
+                <div class="page__next">&#60;&#60;</div>
+                <div class="page__next">&#60;</div>
+                <div class="numbers active">1</div>
+                <div class="numbers">2</div>
+                <div class="numbers">3</div>
+                <div class="numbers">4</div>
+                <div class="numbers">5</div>
+                <div class="numbers">6</div>
+                <div class="numbers">7</div>
+                <div class="numbers">8</div>
+                <div class="numbers">9</div>
+                <div class="numbers">10</div>
+                <div class="page__next">&#62;</div>
+                <div class="page__next">&#62;&#62;</div>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+  </main>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+
+      <!-- FOOTER MENU -->
+      <ul class="footer_menu">
+        <li><a href="#">이용약관</a></li>
+        <li>|</li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li>|</li>
+        <li><a href="#">법적고지</a></li>
+        <li>|</li>
+        <li><a href="#">영상정보처리기기운영/관리</a></li>
+      </ul>
+
+      <!-- CONTACT US -->
+      <div class="footer_contact">
+        <ul class="footer_contact_text">
+          <li>회사명:(주)핫시즈너</li>
+          <li>|</li>
+          <li>사업자등록번호 : 201-86-13311</li>
+          <li>|</li>
+          <li>대표번호 : 070-7710-8592</li>
+          <li>|</li>
+          <li>고객센터 : 1661-8514</li>
+        </ul>
+        <p>본사 : 서울특별시 성동구 성수이로18길 7, HS빌딩 7층</p>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer_copyright">
+        COPYRIGHT Ⓒ BY HOTSEASONER HOT FOOD ALL RIGHTS RESERVED
+      </div>
+
+      <!-- SNS -->
+      <div class="footer_sns">
+        <a href="https://www.youtube.com/channel/UC6n3KHZx7bs5dK1fSVqWLvw/featured" target="_blank"><div class="sns_item"><img src="./svg/sns_youtube.svg" alt="Youtube" /></div></a>
+        <a href="https://www.facebook.com/ddmyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_facebook.svg" alt="facebook" /></div></a>
+        <a href="https://www.instagram.com/loveyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_instagram.svg" alt="Instagram" /></div></a>
+        <a href="https://blog.naver.com/ddm_yupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_blog.svg" alt="네이버 블로그" /></div></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- TOP -->
+  <div class="top" id="to-top">
+    <div>
+      <img src="./svg/top_icon.svg" />
+      <p>TOP</p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동대문엽기떡볶이 - 대한민국의 매운맛을 책임집니다.</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="동대문엽기떡볶이" />
+  <meta property="og:title" content="동대문엽기떡볶이" />
+  <meta property="og:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="og:image" content="./images/og_img.png" />
+  <meta property="og:url" content="https://www.yupdduk.com" />
+
+  <!-- TWITTER CARD -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="동대문엽기떡볶이" />
+  <meta property="twitter:title" content="동대문엽기떡볶이" />
+  <meta property="twitter:description" content="외식 프랜차이즈 업체. 동대문엽기떡볶이" />
+  <meta property="twitter:image" content="./images/og_img.png" />
+  <meta property="twitter:url" content="https://www.yupdduk.com" />
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png" />
+
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+  <!-- MATERIAL ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS -->
+    <!-- COMMON -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./css/menu.css" />
+
+  <!-- FONT -->
+    <!-- Noto Sans Korean -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 여기어때 잘난체 -->
+    <style>
+      @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- lodash.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS -->
+  <script src="./js/common.js" defer></script>
+  <script src="./js/menu.js" defer></script>
+
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <!-- LOGO -->
+      <div class="header_logo">
+        <a href="./index.html">
+          <img src="./images/logo_1.png" alt="동대문엽기떡볶이" width="114px">
+        </a>
+      </div>
+
+      <!-- MENU -->
+      <ul class="header_menu">
+        <li class="item"><div class="item_name">핫시즈너</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>핫시즈너</p>
+                    <span>HONEST FOOD FOR YOU</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./company.html">CEO 인사말</a></li>
+                    <li><a href="./company.html#brand">브랜드소개</a></li>
+                    <li><a href="./company.html#bi">BI/CI</a></li>
+                    <li><a href="./company.html#character">캐릭터소개</a></li>
+                    <li><a href="./company.html#contact">오시는 길</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">메뉴소개</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                    <div>
+                      <p>메뉴소개</p>
+                      <span>엽기떡볶이가 강력 추천합니다.</span>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./menu.html">엽기떡볶이 메뉴</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">가맹문의</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>가맹문의</p>
+                    <span>동대문 엽기떡볶이와 함께할<br/> 점주 여러분을 찾습니다.</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./franchise.html">창업절차</a></li>
+                    <li><a href="./franchise.html#interialConcept">인테리어 콘셉트</a></li>
+                    <li><a href="./franchise.html#franchiseExpense">개설비용</a></li>
+                    <li><a href="./franchise.html#franchiseFaq">창업 FAQ</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">이벤트</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>이벤트</p>
+                    <span>엽떡도 먹고! 이벤트도 참여하고!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/event/list">이벤트 & 안내</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">매장정보</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>매장정보</p>
+                    <span>가까운 지역의 엽기떡볶이 매장을<br/> 만나보세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="./search.html">엽기떡볶이 매장</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item"><div class="item_name">고객안내</div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>고객안내</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">엽기떡볶이 미디어</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="item"><div class="giftcard"><div class="item_name">상품권</div></div>
+          <div class="item_contents">
+            <div class="inner">
+              <div>
+
+                <!-- LEFT -->
+                <div class="item_contents_left">
+                  <div>
+                    <p>상품권</p>
+                    <span>풍성한 소식 놓치지 말고 확인하세요!</span>
+                  </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="item_contents_right">
+                  <ul class="header_menu__sub">
+                    <li><a href="https://www.yupdduk.com/certi/info">상품권 구매</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_extend">상품권 연장</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/info_refund">상품권 환불</a></li>
+                    <li><a href="https://www.yupdduk.com/certi/re_info">상품권 재발급</a></li>
+                    <li class="red_menu"><a href="https://www.yupdduk.com/certi/notice">상품권 유의사항</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- SING UP/IN -->
+      <ul class="header_sign">
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+
+    </div>
+  </header>
+
+  <!-- VISUAL -->
+  <main>
+
+    <!-- TITLE -->
+    <div class="page_title">
+      <div class="inner">
+        <div>
+          <p>엽기떡볶이 메뉴</p>
+          <span>엽기떡볶이가 강력 추천합니다.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENTS -->
+      <!-- MENU SELECT -->
+      <div class="menu_select">
+        <div class="inner">
+          <div>
+            
+            <div class="menu_btn active" id="mainMenu">메인메뉴</div>
+            <div class="menu_btn" id="stirMenu">닭발메뉴</div>
+            <div class="menu_btn" id="sideMenu">사이드/음료</div>
+            <div class="menu_btn" id="toppingMenu">토핑</div>
+            <div class="menu_btn" id="setMenu">세트메뉴</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- LIST -->
+        <!-- MAIN MENU -->
+      <section class="list__all">
+        <div class="inner">
+
+          <!-- MAIN MENU -->
+          <div class="main_menu active">
+            <!-- YUPGI MENU -->
+            <section class="yupgi_menu">
+              <div class="list__title">엽기메뉴</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdduk.png" alt="엽기떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기떡볶이</p>
+                      <span>매운맛/오리지널/덜매운맛/초보맛/착한맛</span>
+                      <p>14,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdduk.png" alt="엽기오뎅" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기오뎅</p>
+                      <span>매운맛/오리지널/덜매운맛/초보맛/착한맛</span>
+                      <p>14,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdduk.png" alt="엽기반반" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기반반</p>
+                      <span>매운맛/오리지널/덜매운맛/초보맛/착한맛</span>
+                      <p>14,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdduk.png" alt="엽기분모자떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기분모자떡볶이</p>
+                      <span>매운맛/오리지널/덜매운맛/초보맛/착한맛</span>
+                      <p>17,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdduk.png" alt="2인 엽기떡볶이" width="185px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">2인 엽기떡볶이</p>
+                      <span>매운맛/오리지널/덜매운맛/착한맛</span>
+                      <p>9,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_yubdak.png" alt="엽기닭볶음탕" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기닭볶음탕</p>
+                      <span>매운맛/오리지널/덜매운맛/초보맛/착한맛</span>
+                      <p>24,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- ROSE MENU -->
+            <section class="rose_menu">
+              <div class="list__title">로제메뉴</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+
+                  <div class="list_card__img"><img src="./images/menu_rose.png" alt="로제떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">로제떡볶이</p>
+                      <span>오리지널/착한맛</span>
+                      <p>16,000 <small>원</small></p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list_card">
+
+                  <div class="list_card__img"><img src="./images/menu_rose.png" alt="로제오뎅" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">로제오뎅</p>
+                      <span>오리지널/착한맛</span>
+                      <p>16,000 <small>원</small></p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list_card">
+
+                  <div class="list_card__img"><img src="./images/menu_rose.png" alt="로제반반" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">로제반반</p>
+                      <span>오리지널/착한맛</span>
+                      <p>16,000 <small>원</small></p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list_card">
+
+                  <div class="list_card__img"><img src="./images/menu_rose.png" alt="로제분모자떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">로제분모자떡볶이</p>
+                      <span>오리지널/착한맛</span>
+                      <p>19,000 <small>원</small></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+            <!-- CREAM MENU -->
+            <section class="cream_menu">
+              <div class="list__title">크림메뉴</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_cream.png" alt="로제떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">크림떡볶이</p>
+                      <span>매콤맛/크림맛/트러플매콤맛/트러플크림맛</span>
+                      <p>15,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_cream.png" alt="로제분모자떡볶이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">크림분모자떡볶이</p>
+                      <span>매콤맛/크림맛/트러플매콤맛/트러플크림맛</span>
+                      <p>18,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- MENU TEXT -->
+            <section class="menu_text">
+              *원재료 투입비율(떡,오뎅)에 따라 제품별 총 부피에 차이가 있습니다.
+            </section>
+          </div>
+
+          <!-- STIR-FRY MENU -->
+          <div class="stir_menu">
+            
+            <section class="yupgi_menu">
+              <div class="list__title">닭발메뉴</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_stirfry.png" alt="엽기 무뼈닭발" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기 무뼈닭발</p>
+                      <p>15,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_stirfry_2.png" alt="엽기 국물닭발" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기 국물닭발</p>
+                      <p>15,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_stirfry_3.png" alt="엽기 오돌뼈" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기 오돌뼈</p>
+                      <p>14,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+          </div>
+
+          <!-- SIDE/DRINK -->
+          <div class="side_menu">
+             <!-- SIDE MENU -->
+             <section class="yupgi_menu">
+              <div class="list__title">사이드메뉴</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_1.png" alt="엽기오돌뼈밥" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기오돌뼈밥</p>
+                      <p>4,500 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_2.png" alt="참치마요밥" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">참치마요밥</p>
+                      <p>3,500 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_3.png" alt="주먹김밥(셀프)" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">주먹김밥(셀프)</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_4.png" alt="계란찜" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">계란찜</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_5.png" alt="계란야채죽" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">계란야채죽</p>
+                      <p>5,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_6.png" alt="오뎅탕" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">오뎅탕</p>
+                      <p>6,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_7.png" alt="공기밥" width="180px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">공기밥</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_8.png" alt="모둠튀김" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">모둠튀김</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_9.png" alt="김말이" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">김말이</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_10.png" alt="야채튀김" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">야채튀김</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_11.png" alt="튀김만두" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">튀김만두</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_12.png" alt="바삭치즈만두" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">바삭치즈만두</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_13.png" alt="엽도그" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽도그</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_14.png" alt="순대" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">순대</p>
+                      <p>3,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_15.png" alt="버터꿀봉" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">버터꿀봉</p>
+                      <span>시즈닝 선택: 달콤치즈 OR 매콤땡초</span>
+                      <p>11,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_side_16.png" alt="고추맵봉" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">고추맵봉</p>
+                      <span>시즈닝 선택: 달콤치즈 OR 매콤땡초</span>
+                      <p>11,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- DRINK -->
+            <section class="rose_menu">
+
+              <div class="list__title">음료</div>
+              <div class="menu_list__all">
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_drink.png" alt="음료(유산균)" width="120px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">음료(유산균)</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          
+          </div>
+
+          <!-- TOPPING -->
+          <div class="topping_menu">
+            <section class="yupgi_menu">
+              <div class="list__title">토핑</div>
+              <div class="menu_list__all">
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_1.png" alt="치즈(모짜렐라)" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">치즈(모짜렐라)</p>
+                      <p>3,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_2.png" alt="햄" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">햄</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_3.png" alt="베이컨" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">베이컨</p>
+                      <p>3,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_4.png" alt="떡추가" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">떡추가</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_5.png" alt="오뎅추가" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">오뎅추가</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_6.png" alt="퐁당치즈만두" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">퐁당치즈만두</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_7.png" alt="우동사리" width="180px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">우동사리</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_8.png" alt="당면사리" width="180px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">당면사리</p>
+                      <p>2,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_9.png" alt="중국당면" width="180px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">중국당면</p>
+                      <p>2,500 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_10.png" alt="분모자" width="160px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">분모자</p>
+                      <p>2,500 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_11.png" alt="계란" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">계란</p>
+                      <p>1,500 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_topping_12.png" alt="메추리알" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">메추리알</p>
+                      <p>1,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+          </div>
+
+          <!-- SET MENU -->
+          <div class="set_menu">
+            <section class="yupgi_menu">
+              <div class="list__title">세트메뉴</div>
+              <div class="menu_list__all">
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_setmenu_1.png" alt="A SET" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">A SET</p>
+                      <span>
+                        엽떡 OR 엽오 OR 반반 중 택 1 <br />
+                        + 모듬튀김 (야채튀김1개+김말이1개+만두2개) <br />
+                        + 계란 2알 OR 메추리알 5알 중 택 1
+                      </span>
+                      <p>17,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_setmenu_2.png" alt="B SET" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">B SET</p>
+                      <span>
+                        엽떡 OR 엽오 OR 반반 중 택 1 <br />
+                        + 모듬튀김 (야채튀김1개+김말이1개+만두2개) <br />
+                        + 계란 2알 OR 메추리알 5알 중 택 1 <br />
+                        + 주먹김밥(셀프)
+                      </span>
+                      <p>19,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_setmenu_3.png" alt="C SET" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">C SET</p>
+                      <span>
+                        엽떡 OR 엽오 OR 반반 중 택 1 <br />
+                        + 모듬튀김 (야채튀김1개+김말이1개+만두2개) <br />
+                        + 계란 2알 OR 메추리알 5알 중 택 1 <br />
+                        + 주먹김밥(셀프) + 당면
+                      </span>
+                      <p>21,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_setmenu_4.png" alt="FAMILY SET" width="200px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">FAMILY SET</p>
+                      <span>
+                        엽떡 OR 엽오 OR 반반 중 택 1 <br />
+                        + 엽기 닭발메뉴 중 택 1 + 주먹김밥(셀프)
+                      </span>
+                      <p>28,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="list_card">
+                  <div class="list_card__img"><img src="./images/menu_setmenu_5.png" alt="엽기닭발 SET" width="243px"></div>
+                  <div class="list_card__text">
+                    <div>
+                      <p class="list_card__title">엽기닭발 SET</p>
+                      <span>엽기 닭발메뉴 중 택 1 + 주먹김밥(셀프)</span>
+                      <p>16,000 <small>원</small></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+
+      <!-- FOOTER MENU -->
+      <ul class="footer_menu">
+        <li><a href="#">이용약관</a></li>
+        <li>|</li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li>|</li>
+        <li><a href="#">법적고지</a></li>
+        <li>|</li>
+        <li><a href="#">영상정보처리기기운영/관리</a></li>
+      </ul>
+
+      <!-- CONTACT US -->
+      <div class="footer_contact">
+        <ul class="footer_contact_text">
+          <li>회사명:(주)핫시즈너</li>
+          <li>|</li>
+          <li>사업자등록번호 : 201-86-13311</li>
+          <li>|</li>
+          <li>대표번호 : 070-7710-8592</li>
+          <li>|</li>
+          <li>고객센터 : 1661-8514</li>
+        </ul>
+        <p>본사 : 서울특별시 성동구 성수이로18길 7, HS빌딩 7층</p>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer_copyright">
+        COPYRIGHT Ⓒ BY HOTSEASONER HOT FOOD ALL RIGHTS RESERVED
+      </div>
+
+      <!-- SNS -->
+      <div class="footer_sns">
+        <a href="https://www.youtube.com/channel/UC6n3KHZx7bs5dK1fSVqWLvw/featured" target="_blank"><div class="sns_item"><img src="./svg/sns_youtube.svg" alt="Youtube" /></div></a>
+        <a href="https://www.facebook.com/ddmyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_facebook.svg" alt="facebook" /></div></a>
+        <a href="https://www.instagram.com/loveyupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_instagram.svg" alt="Instagram" /></div></a>
+        <a href="https://blog.naver.com/ddm_yupdduk" target="_blank"><div class="sns_item"><img src="./svg/sns_blog.svg" alt="네이버 블로그" /></div></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- TOP -->
+  <div class="top" id="to-top">
+    <div>
+      <img src="./svg/top_icon.svg" />
+      <p>TOP</p>
+    </div>
+  </div>
+
+</body>
+</html>
