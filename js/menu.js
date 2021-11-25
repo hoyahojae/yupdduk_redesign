@@ -11,7 +11,7 @@ document.querySelector('#mainMenu').addEventListener('click', function() {
   document.querySelector('.stir_menu').classList.remove('active')
   document.querySelector('.side_menu').classList.remove('active')
   document.querySelector('.topping_menu').classList.remove('active')
-  document.querySelector('.set_menu').classList.remove('.active')
+  document.querySelector('.set_menu').classList.remove('active')
 });
 
 // STIR-FRY MENU
@@ -27,7 +27,7 @@ document.querySelector('#stirMenu').addEventListener('click', function() {
   document.querySelector('.main_menu').classList.remove('active')
   document.querySelector('.side_menu').classList.remove('active')
   document.querySelector('.topping_menu').classList.remove('active')
-  document.querySelector('.set_menu').classList.remove('.active')
+  document.querySelector('.set_menu').classList.remove('active')
 });
 
 // SIDE MENU
@@ -43,7 +43,7 @@ document.querySelector('#sideMenu').addEventListener('click', function() {
   document.querySelector('.stir_menu').classList.remove('active')
   document.querySelector('.main_menu').classList.remove('active')
   document.querySelector('.topping_menu').classList.remove('active')
-  document.querySelector('.set_menu').classList.remove('.active')
+  document.querySelector('.set_menu').classList.remove('active')
 });
 
 // TOPPING
@@ -59,7 +59,7 @@ document.querySelector('#toppingMenu').addEventListener('click', function() {
   document.querySelector('.stir_menu').classList.remove('active')
   document.querySelector('.side_menu').classList.remove('active')
   document.querySelector('.main_menu').classList.remove('active')
-  document.querySelector('.set_menu').classList.remove('.active')
+  document.querySelector('.set_menu').classList.remove('active')
 });
 
 // SET MENU
@@ -75,5 +75,5 @@ document.querySelector('#setMenu').addEventListener('click', function() {
   document.querySelector('.stir_menu').classList.remove('active')
   document.querySelector('.side_menu').classList.remove('active')
   document.querySelector('.topping_menu').classList.remove('active')
-  document.querySelector('.main_menu').classList.remove('.active')
+  document.querySelector('.main_menu').classList.remove('active')
 });
