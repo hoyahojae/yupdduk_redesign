@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* COMMON */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Noto Sans KR', sans-serif;
   width: 100vw;
