@@ -6,7 +6,7 @@ html {
 }
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  width: 100vw;
+  width: 1920px;
   color: #333;
   font-size: 16px;
   font-weight: 400;
@@ -59,7 +59,7 @@ a {
 
 /* HEADER */
 header {
-  width: 100vw;
+  width: 1920px;
   height: 80px;
   background-color: #fff;
 }
@@ -144,7 +144,6 @@ header>.inner {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: chocolate; */
       }
       .item_contents_left>div {
         height: 112px;
@@ -160,7 +159,6 @@ header>.inner {
       }
       /* RIGHT */
       .header_menu__sub>li {
-        /* background-color: beige; */
         margin-bottom: 8px;
       }
       .header_menu__sub>li a {
@@ -282,7 +280,7 @@ header>.inner {
 
 /* FOOTER */
 footer {
-  width: 100vw;
+  width: 1920px;
   height: 200px;
   padding-top: 28px;
   padding-bottom: 28px;
